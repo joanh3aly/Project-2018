@@ -20,7 +20,7 @@ df3 = pd.DataFrame({'sl': sl, 'pl': pl})
 scaler = StandardScaler()
 
 # Create KMeans instance: kmeans
-kmeans = KMeans(n_clusters=4)
+kmeans = KMeans(n_clusters=3)
 
 # Create pipeline: pipeline
 pipeline = make_pipeline(scaler,kmeans)
