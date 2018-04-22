@@ -1,5 +1,5 @@
 '''
-Experiment with cross-tabulation, to count the amount of varieties in each cluster
+Experiment with cross-tabulation, to count the amount of varieties in each cluster. Reveals accuracy of clustering and scaling.
 '''
 import matplotlib.pyplot as plt
 import pandas as pd
