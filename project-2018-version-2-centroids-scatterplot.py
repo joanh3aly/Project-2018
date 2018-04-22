@@ -11,6 +11,8 @@ from sklearn.cluster import KMeans
 
 df = pd.read_csv('/Users/joanhealy1/documents/exercise-5-iris-data/data/iris.data.csv')
 #print(df.head())
+
+# Experimenting with various ways to manipulate the dataframe using .iloc and .drop methods.
 #points = df.drop(['class',], axis=1)
 sl = df.iloc[:,0]
 pl = df.iloc[:,2]
