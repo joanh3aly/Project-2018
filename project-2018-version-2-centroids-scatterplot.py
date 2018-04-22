@@ -1,6 +1,6 @@
 '''
 Joan Healy - Project 2018
-30/3/18
+22/4/18
 
 Objective: Use KMeans to cluster the data points of petal and sepal length, then scatterplot to show centroids (centers of each cluster).
 '''
