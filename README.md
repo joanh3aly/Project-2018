@@ -29,7 +29,7 @@ _Sample of the data using .head()_
 | Tables        | Are           | Cool  | Tables        | Are           | Cool  |
 | ------------- |:-------------:| -----:| ------------- |:-------------:| -----:|
 |0  | 5.1          | 3.5         | 1.4          | 0.2         | Iris-setosa | 
-| col 2 is      | centered      |   $12 | col 2 is      | centered      |   $12 |
+|1  | 4.9          | 3.0         | 1.4          | 0.2         | Iris-setosa |  
 | zebra stripes | are neat      |    $1 | col 2 is      | centered      |   $12 |
 
 
