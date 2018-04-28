@@ -17,7 +17,7 @@ The pandas library was used to import the dataset into my Python script.
 Numpy was used to calculate the mean, standard deviation, minimum and maximum values of the different columns (representing length and width of sepals and petals)
 Mathplotlib was used to create scatterplots and bar charts comparing the different features: compare sepals and petals.
 
-Sample of the data using .head()
+Sample of the data using .head()  
 |   | sepal_length | sepal_width | petal_length | petal_width | variety     |
 |   |--------------|-------------|--------------|-------------|-------------|
 |0  | 5.1          | 3.5         | 1.4          | 0.2         | Iris-setosa |
