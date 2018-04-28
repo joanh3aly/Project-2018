@@ -18,7 +18,7 @@ Numpy was used to calculate the mean, standard deviation, minimum and maximum va
 Mathplotlib was used to create scatterplots and bar charts comparing the different features: compare sepals and petals.
 
 _Sample of the data using .head()_  
-|   | sepal_length | sepal_width | petal_length | petal_width | variety     |
+|   | sepal_length   | sepal_width   | petal_length   | petal_width   | variety     |
 |---|--------------|-------------|--------------|-------------|-------------|
 |0  | 5.1          | 3.5         | 1.4          | 0.2         | Iris-setosa |
 |1  | 4.9          | 3.0         | 1.4          | 0.2         | Iris-setosa |
