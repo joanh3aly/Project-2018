@@ -11,7 +11,7 @@ Fisher's Iris flower data set is a data set comprised of the length and width of
 
 In 1936 Ronald Fisher, a British biologist and statistician used the data set to create a linear discriminant model to distinguish the Iris species from each other. His research is recorded in his paper "The use of multiple measurements in taxonomic problems".
 
-## Initial Investigations 
+## Initial Investigations – project-2018-part-1.py
 
 The pandas library was used to import the dataset into my Python script. 
 Numpy was used to calculate the mean, standard deviation, minimum and maximum values of the different columns (representing length and width of sepals and petals)
@@ -54,6 +54,13 @@ _Standard deviations of the 4 features in the data set:_
 ![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/standard-deviations-barchart.png "Logo Title Text 1")
 
 
+## KMeans clustering and visualisation of centroids – project-2018-part-2.py
+
+## Crosstabulation table to test accuracy – project-2018-part-3.py
+
+## Tranformation of data features using Scalar to improve accuracy – project-2018-part-4.py
+
+## Tranformation of data features using Normalizer to improve accuracy – project-2018-part-5.py
 
 
 ## References:
