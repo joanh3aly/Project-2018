@@ -10,11 +10,8 @@ import numpy as np
 from sklearn.cluster import KMeans
 
 df = pd.read_csv('/Users/joanhealy1/documents/exercise-5-iris-data/data/iris.data.csv')
-#print(df.head())
-#points = df.drop(['class',], axis=1)
 sl = df.iloc[:,0]
 pl = df.iloc[:,2]
-#df2.loc[:,'a':'b'] = p.Series(np.random.randn(sLength), index=df1.index)
 df3 = pd.DataFrame({'sl': sl, 'pl': pl})
 
 ks = range(1, 6)
