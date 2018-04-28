@@ -125,6 +125,7 @@ _Further Research_
 
 * Even though the clustering algorithm correctly identified (almost) 50 of each species, how do I know that the algorithm correctly identified each species at the granular level? For example, how do we know if there were false positives or false negatives?
 * Why did scaler and normalizer working together not make the algorithm more accurate is spotting patterns?
+* Would the model be more/less accurate if different features were used - ie: sepal width vs petal width, or sepal length vs sepal width?
 
 
 ## References:
