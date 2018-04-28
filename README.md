@@ -25,25 +25,25 @@ sepal_length  sepal_width  petal_length  petal_width      variety
 3           4.6          3.1           1.5          0.2  Iris-setosa
 4           5.0          3.6           1.4          0.2  Iris-setosa
 
-Sepal Length   
+_Sepal Length_  
 mean 5.843333333333335,   
 max 7.9,   
 min 4.3,  
 standard deviation 0.8253012917851409  
 
-Sepal Width  
+_Sepal Width_  
 mean 3.0540000000000007,   
 max 4.4,   
 min 2.0,   
 standard deviation 0.4321465800705435  
 
-Petal Length  
+_Petal Length_  
 mean 3.7586666666666693,   
 max 6.9,   
 min 1.0,   
 standard deviation 1.7585291834055201  
 
-Petal Width   
+_Petal Width_   
 mean 1.1986666666666672,   
 max 2.5,   
 min 0.1,   
@@ -55,7 +55,7 @@ Standard deviations of the 4 features in the data set:
 
 
 
-References:
+## References:
 https://en.wikipedia.org/wiki/Iris_flower_data_set
 https://matplotlib.org/gallery/specialty_plots/system_monitor.html#sphx-glr-gallery-specialty-plots-system-monitor-py  
 https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html
