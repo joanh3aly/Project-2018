@@ -1,5 +1,5 @@
 '''
-Joan Healy - Project 2018
+Joan Healy - Project 2018 - part 2
 22/4/18
 
 Objective: Use KMeans to cluster the data points of petal and sepal length, then scatterplot to show centroids (centers of each cluster).
@@ -10,7 +10,6 @@ import numpy as np
 from sklearn.cluster import KMeans
 
 df = pd.read_csv('/Users/joanhealy1/documents/exercise-5-iris-data/data/iris.data.csv')
-#print(df.head())
 
 # Experimenting with various ways to manipulate the dataframe using .iloc and .drop methods.
 #points = df.drop(['class',], axis=1)
@@ -39,7 +38,7 @@ ys = df3.iloc[:,1]
 # Make a scatter plot of xs and ys, using labels to define the colors
 plt.scatter(xs,ys,c=labels,alpha=0.5)
 
-# Assign the cluster centers: centroids
+# Assign the cluster centers
 centroids = model.cluster_centers_
 
 # Assign the columns of centroids: centroids_x, centroids_y
