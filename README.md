@@ -58,11 +58,16 @@ _Standard deviations of the 4 features in the data set:_
 
 ## Crosstabulation table to test accuracy – project-2018-part-3.py
 
-## Tranformation of data features using Scalar to improve accuracy – project-2018-part-4.py
+## Tranformation of data features using Scalar & Normalizer to improve accuracy – project-2018-part-4.py
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
-## Tranformation of data features using Normalizer to improve accuracy – project-2018-part-5.py
 
-## Summary of investigations and further research – project-2018-part-5.py
+
+## Summary of investigations and further research 
 
 
 ## References:
