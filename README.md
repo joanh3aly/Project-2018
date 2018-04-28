@@ -26,7 +26,7 @@ _Sample of the data using .head()_
 |3  | 4.6          | 3.1         | 1.5          | 0.2         | Iris-setosa |  
 |4  | 5.0          | 3.6         | 1.4          | 0.2         | Iris-setosa |  
 
-| index        | sepal_length           | sepal_width  |
+| index        | sepal_length           | sepal_width  | petal_length   | petal_width   | variety     |
 | ------------- |:-------------:| -----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
