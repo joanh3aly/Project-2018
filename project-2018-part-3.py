@@ -1,5 +1,5 @@
 '''
-Joan Healy - Project 2018 - version 3
+Joan Healy - Project 2018 - part 3
 22/4/18
 
 Objective: Find the best number of clusters for the model and graph output.
