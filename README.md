@@ -31,6 +31,7 @@ _Sample of the data using .head()_
 | col 3 is      | right-aligned | $1600 |col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 | zebra stripes | are neat      |    $1 |
+|0  | 5.1          | 3.5         | 1.4          | 0.2         | Iris-setosa | 
 
 
 
