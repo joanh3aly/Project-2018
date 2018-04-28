@@ -112,6 +112,19 @@ _3 clusters with scaler and normalizer_
 
 
 ## Summary of investigations and further research 
+As we can see from the 4 cross-tabulation tables above, the best model for the data used 3 clusters and the Normalizer preprocessor of the feature data.   
+
+* The number of clusters corresponds to what we know about the dataset, in that there are 3 varieties of Iris present. Using the inertia method to test the number of clusters further establishes this.
+
+* The Normalizer preprocessor cross-tabulation table shows us that it was the most accurate preprocessor, over Scaler and no preprocessing, as we can see that Iris setosa and Iris Virginica are at 50 samples, or almost 50 (49). Only Iris versicolor is a little less accurate, yet still more accurate compared to the other tables. This is perhaps because there is quite a difference between the standard deviation of the petal length feature and the sepal length feature at 1.75 and 0.4 respectively (see bar chart below). Therefore normalizing them makes them easier for Kmeans to compare.
+
+_Standard deviations of the 4 features in the data set:_
+![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/standard-deviations-barchart.png "Barchart")
+
+_Further Research_
+
+* Even though the clustering algorithm correctly identified (almost) 50 of each species, how do I know that the algorithm correctly identified each species at the granular level? For example, how do we know if there were false positives or false negatives?
+* Why did scaler and normalizer working together not make the algorithm more accurate is spotting patterns?
 
 
 ## References:
