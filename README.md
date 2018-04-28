@@ -128,8 +128,11 @@ _Further Research_
 
 
 ## References:
-https://en.wikipedia.org/wiki/Iris_flower_data_set
-https://matplotlib.org/gallery/specialty_plots/system_monitor.html#sphx-glr-gallery-specialty-plots-system-monitor-py  
-https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html
+[Datacamp Unsupervised learning tutorial](https://campus.datacamp.com/courses/unsupervised-learning-in-python/clustering-for-dataset-exploration?ex=1)
+[Iris Flower Dataset, Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set)
+[Udacity Machine Learning](https://eu.udacity.com/course/intro-to-machine-learning--ud120)
+[Sklearn](http://scikit-learn.org/)
+[Mathplotlib](https://matplotlib.org/gallery/specialty_plots/system_monitor.html#sphx-glr-gallery-specialty-plots-system-monitor-py  )
+[Mathplotlib](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html)
 
 
