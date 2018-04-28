@@ -17,6 +17,38 @@ The pandas library was used to import the dataset into my Python script.
 Numpy was used to calculate the mean, standard deviation, minimum and maximum values of the different columns (representing length and width of sepals and petals)
 Mathplotlib was used to create scatterplots and bar charts comparing the different features: compare sepals and petals.
 
+Sample of the data using .head()
+sepal_length  sepal_width  petal_length  petal_width      variety
+0           5.1          3.5           1.4          0.2  Iris-setosa
+1           4.9          3.0           1.4          0.2  Iris-setosa
+2           4.7          3.2           1.3          0.2  Iris-setosa
+3           4.6          3.1           1.5          0.2  Iris-setosa
+4           5.0          3.6           1.4          0.2  Iris-setosa
+
+Sepal Length 
+mean 5.843333333333335, 
+max 7.9, 
+min 4.3, 
+standard deviation 0.8253012917851409
+
+Sepal Width
+mean 3.0540000000000007, 
+max 4.4, 
+min 2.0, 
+standard deviation 0.4321465800705435
+
+Petal Length
+mean 3.7586666666666693, 
+max 6.9, 
+min 1.0, 
+standard deviation 1.7585291834055201
+
+Petal Width 
+mean 1.1986666666666672, 
+max 2.5, 
+min 0.1, 
+standard deviation 0.760612618588172
+
 Standard deviations of the 4 features in the data set:
 ![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/standard-deviations-barchart.png "Logo Title Text 1")
 
