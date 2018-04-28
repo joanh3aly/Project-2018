@@ -62,6 +62,8 @@ _Standard deviations of the 4 features in the data set:_
 
 ## Tranformation of data features using Normalizer to improve accuracy – project-2018-part-5.py
 
+## Summary of investigations and further research – project-2018-part-5.py
+
 
 ## References:
 https://en.wikipedia.org/wiki/Iris_flower_data_set
