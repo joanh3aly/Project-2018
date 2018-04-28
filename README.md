@@ -132,7 +132,7 @@ _Further Research_
 [Iris Flower Dataset, Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set)
 [Udacity Machine Learning](https://eu.udacity.com/course/intro-to-machine-learning--ud120)
 [Sklearn](http://scikit-learn.org/)
-[Mathplotlib](https://matplotlib.org/gallery/specialty_plots/system_monitor.html#sphx-glr-gallery-specialty-plots-system-monitor-py  )
-[Mathplotlib](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html)
+[Mathplotlib bar chart](https://matplotlib.org/gallery/specialty_plots/system_monitor.html#sphx-glr-gallery-specialty-plots-system-monitor-py)  
+[Mathplotlib scatterplot](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html)  
 
 
