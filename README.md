@@ -72,8 +72,8 @@ _Line graph of inertia vs 6 clusters_
 _Line graph of inertia vs 20 clusters_
 ![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/inertia-20.png "Inertia 20")
 
-## Tranformation of data features using Scalar & Normalizer to improve accuracy, and use of a crosstabulation table to test accuracy – _project-2018-part-4.py_
-The data in each feature was transformed using the scalar and normalizer functions from sklearn.preprocessing. Scalar standardises the variance of the data in each feature, Normalizer rescales each row in the dataset so that the norm equals 1. 
+## Tranformation of data features using Scaler & Normalizer to improve accuracy, and use of a crosstabulation table to test accuracy – _project-2018-part-4.py_
+The data in each feature was transformed using the scaler and normalizer functions from sklearn.preprocessing. Scaler standardises the variance of the data in each feature, Normalizer rescales each row in the dataset so that the norm equals 1. 
 A cross-tabulation table is created for each model using Normalizer, Scaler and no data transformations. Each model's accuracy can then be compared.
 
 
@@ -100,6 +100,15 @@ _3 clusters with Normalizer_
 |0  | 0          | 9       | 49        | 
 |1  | 50         | 0         | 0         | 
 |2  | 0          | 41        | 1         | 
+
+_3 clusters with scaler and normalizer_
+
+| labels        | Iris-setosa           | Iris-versicolor  | Iris-virginica    | 
+| ------------- |-------------:| -----:| ------------- |
+|0  | 0          | 17       | 6        | 
+|1  | 50         | 7         | 0         | 
+|2  | 0          | 26        | 44         | 
+
 
 ## Summary of investigations and further research 
 
