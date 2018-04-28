@@ -3,7 +3,7 @@ by Joan Healy
 
 ## About This Project
 
-This is a project for my Python programming module for the GMIT HDip in the science of data analytics. It investigates and attempts to classify the 3 varieties of Iris flower using machine learning algorithms. I used several Python libraries and machine learning tutorials to achieve this, such as the Datacamp Unsupervised learning tutorial, which are outlined below. The aim of this project was to learn some basic unsupervised learning techniques.
+This is a project for my Python programming module for the GMIT HDip in the science of data analytics. It investigates and attempts to classify the 3 varieties of Iris flower using machine learning algorithms. I used several Python libraries and machine learning tutorials to achieve this, such as the [Datacamp Unsupervised learning tutorial](https://campus.datacamp.com/courses/unsupervised-learning-in-python/clustering-for-dataset-exploration?ex=1), which are outlined below. The aim of this project was to learn some basic unsupervised learning techniques.
 
 ## Summary of Fisher's Iris Data Set 
 
