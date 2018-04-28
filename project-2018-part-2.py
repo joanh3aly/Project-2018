@@ -13,25 +13,29 @@ df = pd.read_csv('/Users/joanhealy1/documents/exercise-5-iris-data/data/iris.dat
 
 # Experimenting with various ways to manipulate the dataframe using .iloc and .drop methods.
 #points = df.drop(['class',], axis=1)
+# select the first column/feature (sepal length)
 sl = df.iloc[:,0]
+# select the third column/feature (petal length)
 pl = df.iloc[:,2]
 #df2.loc[:,'a':'b'] = p.Series(np.random.randn(sLength), index=df1.index)
+
+# create a new dataframe using sepal length and petal length as columns
 df3 = pd.DataFrame({'sl': sl, 'pl': pl})
 
-# Create a KMeans instance with 3 clusters: model
+# Create a KMeans instance with 3 clusters
 model = KMeans(n_clusters=3)
 
 # Fit model to points
 model.fit(df3)
 
-# Determine the cluster labels of new_points: labels
+# Determine the cluster labels of new_points
 labels = model.predict(df3)
 
 # Print cluster labels of new_points
 print(labels)
 
 # Assign the columns of new_points: xs and ys
-print(df3.iloc[:,0])
+
 xs = df3.iloc[:,0]
 ys = df3.iloc[:,1]
 
