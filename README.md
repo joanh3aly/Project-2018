@@ -76,18 +76,24 @@ _Line graph of inertia vs 20 clusters_
 The data in each feature was transformed using the scalar and normalizer functions from sklearn.preprocessing. Scalar standardises the variance of the data in each feature, Normalizer rescales each row in the dataset so that the norm equals 1. 
 A cross-tabulation table is created for each model using Normalizer, Scaler and no data transformations. Each model's accuracy can then be compared.
 
-| variety        | Iris-setosa           | Iris-versicolor  | Iris-virginica    | 
+
+_3 clusters - no transformation of the features_
+| labels        | Iris-setosa           | Iris-versicolor  | Iris-virginica    | 
 | ------------- |:-------------:| -----:| ------------- |
 |0  | 0          | 4        | 37         | 
 |1  | 50         | 1         | 0         | 
 |2  | 0          | 45        | 13         | 
 
-3 clusters - no transformation of the features
-variety  Iris-setosa  Iris-versicolor  Iris-virginica
-labels                                               
-0                  0                4              37
-1                 50                1               0
-2                  0               45              13
+
+_3 clusters with Scaler_
+
+| labels        | Iris-setosa           | Iris-versicolor  | Iris-virginica    | 
+| ------------- |:-------------:| -----:| ------------- |
+|0  | 50          | 4        | 0         | 
+|1  | 0         | 9         | 34         | 
+|2  | 0          | 37        | 16         | 
+
+__
 
 ## Summary of investigations and further research 
 
