@@ -16,5 +16,7 @@ https://matplotlib.org/gallery/specialty_plots/system_monitor.html#sphx-glr-gall
 https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html
 
 
+![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/standard-deviations-barchart.png "Logo Title Text 1")
+
 ![alt text][stdBarChart]   
 [stdBarChart]:https://github.com/joanh3aly/Project-2018/blob/master/figures/standard-deviations-barchart.png
