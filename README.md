@@ -77,9 +77,10 @@ The data in each feature was transformed using the scaler and normalizer functio
 A cross-tabulation table is created for each model using Normalizer, Scaler and no data transformations. Each model's accuracy can then be compared.
 
 
-_3 clusters - no transformation of the features_
+_3 clusters - no transformation of the features_  
+
 | labels        | Iris-setosa           | Iris-versicolor  | Iris-virginica    | 
-| ------------- |:-------------:| -----:| ------------- |
+| :-------------: |:-------------:| :-----:| :-------------: |
 |0  | 0          | 4        | 37         | 
 |1  | 50         | 1         | 0         | 
 |2  | 0          | 45        | 13         | 
@@ -88,7 +89,7 @@ _3 clusters - no transformation of the features_
 _3 clusters with Scaler_
 
 | labels        | Iris-setosa           | Iris-versicolor  | Iris-virginica    | 
-| ------------- |:-------------:| -----:| ------------- |
+| :------------- |:-------------:| :-----:| :-------------: |
 |0  | 50          | 4        | 0         | 
 |1  | 0         | 9         | 34         | 
 |2  | 0          | 37        | 16         | 
@@ -96,7 +97,7 @@ _3 clusters with Scaler_
 _3 clusters with Normalizer_
 
 | labels        | Iris-setosa           | Iris-versicolor  | Iris-virginica    | 
-| ------------- |:-------------:| -----:| ------------- |
+| :------------- |:-------------:| :-----:| :-------------: |
 |0  | 0          | 9       | 49        | 
 |1  | 50         | 0         | 0         | 
 |2  | 0          | 41        | 1         | 
@@ -104,7 +105,7 @@ _3 clusters with Normalizer_
 _3 clusters with scaler and normalizer_
 
 | labels        | Iris-setosa           | Iris-versicolor  | Iris-virginica    | 
-| ------------- |-------------:| -----:| ------------- |
+| :-------------: |:-------------:| :-----:| :------------- |
 |0  | 0          | 17       | 6        | 
 |1  | 50         | 7         | 0         | 
 |2  | 0          | 26        | 44         | 
