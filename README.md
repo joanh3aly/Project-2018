@@ -55,6 +55,18 @@ standard deviation 0.760612618588172
 _Standard deviations of the 4 features in the data set:_
 ![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/standard-deviations-barchart.png "Barchart")
 
+_Petal length vs petal width_
+![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/petal_length_vs_petal_width.png "petal_length_vs_petal_width")
+
+_Sepal length vs petal length_
+![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/sepal_length-vs-petal_length.png "sepal_length-vs-petal_length")
+
+_Sepal width vs petal width_
+![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/sepal_width_vs_petal_width.png "sepal_width_vs_petal_width")
+
+_Sepal width vs sepal length_
+![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/sepal_width_vs_sepal_length.png "sepal_width_vs_sepal_length")
+
 
 ## KMeans clustering and visualisation of centroids – _project-2018-part-2.py_
 The KMeans algorithm from Sklearn was used to model the dataset after the petal length and sepal length columns were put into a new dataframe. Labels for each were found by using .fit and .predict on the model.
