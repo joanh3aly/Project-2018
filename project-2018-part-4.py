@@ -1,6 +1,7 @@
 '''
 Project 2018 - part 4
 Joan Healy
+22/4/18
 
 Experiment with cross-tabulation, to count the amount of varieties in each cluster. Reveals accuracy of clustering and scaling.
 '''
