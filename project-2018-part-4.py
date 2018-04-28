@@ -4,6 +4,7 @@ Joan Healy
 22/4/18
 
 Experiment with cross-tabulation, to count the amount of varieties in each cluster. Reveals accuracy of clustering and scaling.
+Compare the results of the model using Normalizer, Scaler and no data transformations.
 '''
 import matplotlib.pyplot as plt
 import pandas as pd
