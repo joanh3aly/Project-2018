@@ -3,7 +3,7 @@ by Joan Healy
 
 ## About This Project
 
-This is a project for my Python programming module for the GMIT HDip in the science of data analytics. It investigates and attempts to classify the 3 varieties of Iris flower using unsupervised learning techniques. I used several Python libraries and machine learning tutorials to achieve this, which are outlined below. 
+This is a project for my Python programming module for the GMIT HDip in the science of data analytics. It investigates and attempts to classify the 3 varieties of Iris flower using unsupervised learning techniques. I used several Python libraries and machine learning tutorials to achieve this, such as the Datacamp Unsupervised learning tutorial, which are outlined below. 
 
 ## Summary of Fisher's Iris Data Set 
 
@@ -26,10 +26,6 @@ _Sample of the data using .head()_
 |2  | 4.7          | 3.2         | 1.3          | 0.2         | Iris-setosa |  
 |3  | 4.6          | 3.1         | 1.5          | 0.2         | Iris-setosa |  
 |4  | 5.0          | 3.6         | 1.4          | 0.2         | Iris-setosa |  
-
-
-
-
 
 
 _Sepal Length_  
@@ -57,10 +53,14 @@ min 0.1,
 standard deviation 0.760612618588172  
 
 _Standard deviations of the 4 features in the data set:_
-![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/standard-deviations-barchart.png "Logo Title Text 1")
+![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/standard-deviations-barchart.png "Barchart")
 
 
 ## KMeans clustering and visualisation of centroids – project-2018-part-2.py
+The KMeans algorithm from Sklearn was used to model the dataset after the petal length and sepal length columns were put into a new dataframe.
+
+_Scatterplot of clustering centroids found after modelling the petal length and sepal length using KMeans_
+![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/centroid-clusters.png "Centroids")
 
 ## Crosstabulation table to test accuracy – project-2018-part-3.py
 
