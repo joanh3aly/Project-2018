@@ -9,7 +9,7 @@ This is a project for my Python programming module for the GMIT HDip in the scie
 
 Fisher's Iris flower data set is a data set comprised of the length and width of the sepals and petals of 50 samples each of Iris setosa, Iris verginica and Iris versicolor, measured in centimeters. 
 
-In 1936 Ronald Fisher, a British biologist and statistician used the data set to create a linear discriminant model to distinguish the Iris species from each other. His research is recorded in his paper The use of multiple measurements in taxonomic problems.
+In 1936 Ronald Fisher, a British biologist and statistician used the data set to create a linear discriminant model to distinguish the Iris species from each other. His research is recorded in his paper "The use of multiple measurements in taxonomic problems".
 
 ## Initial Investigations 
 
@@ -24,6 +24,7 @@ Standard deviations of the 4 features in the data set:
 
 
 References:
+https://en.wikipedia.org/wiki/Iris_flower_data_set
 https://matplotlib.org/gallery/specialty_plots/system_monitor.html#sphx-glr-gallery-specialty-plots-system-monitor-py  
 https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html
 
