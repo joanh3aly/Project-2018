@@ -3,7 +3,7 @@ by Joan Healy
 
 ## About This Project
 
-This is a project for my Python programming module for the GMIT HDip in the science of data analytics. It investigates and attempts to classify the 3 varieties of Iris flower using unsupervised learning techniques. I used several Python libraries and machine learning tutorials to achieve this, such as the Datacamp Unsupervised learning tutorial, which are outlined below. 
+This is a project for my Python programming module for the GMIT HDip in the science of data analytics. It investigates and attempts to classify the 3 varieties of Iris flower using machine learning algorithms. I used several Python libraries and machine learning tutorials to achieve this, such as the Datacamp Unsupervised learning tutorial, which are outlined below. The aim of this project was to learn some basic unsupervised learning techniques.
 
 ## Summary of Fisher's Iris Data Set 
 
@@ -11,7 +11,7 @@ Fisher's Iris flower data set is a data set comprised of the length and width of
 
 In 1936 Ronald Fisher, a British biologist and statistician used the data set to create a linear discriminant model to distinguish the Iris species from each other. His research is recorded in his paper "The use of multiple measurements in taxonomic problems".
 
-## Initial Investigations – project-2018-part-1.py
+## Initial Investigations – _project-2018-part-1.py_
 
 The pandas library was used to import the dataset into my Python script. 
 Numpy was used to calculate the mean, standard deviation, minimum and maximum values of the different columns (representing length and width of sepals and petals)
@@ -56,15 +56,23 @@ _Standard deviations of the 4 features in the data set:_
 ![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/standard-deviations-barchart.png "Barchart")
 
 
-## KMeans clustering and visualisation of centroids – project-2018-part-2.py
-The KMeans algorithm from Sklearn was used to model the dataset after the petal length and sepal length columns were put into a new dataframe.
+## KMeans clustering and visualisation of centroids – _project-2018-part-2.py_
+The KMeans algorithm from Sklearn was used to model the dataset after the petal length and sepal length columns were put into a new dataframe. Labels for each were found by using .fit and .predict on the model.
+From this visualisation, we can see 3 clusters of data points.
 
 _Scatterplot of clustering centroids found after modelling the petal length and sepal length using KMeans_
 ![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/centroid-clusters.png "Centroids")
 
-## Crosstabulation table to test accuracy – project-2018-part-3.py
+## Finding the best number of clusters by visualising the inertia – _project-2018-part-3.py_
+Inertia is a measure of the sum of the squares within each cluster. The lower the inertia of each cluster, the more accurate each cluster will be. Using the .inertia_ method on a range of clustering values (6 and 20 in this case) then visualise as a line graph, we can choose how many clusters we should use for our model. In the case of the Iris data set, it is 3, as can be seen from the graph below.
 
-## Tranformation of data features using Scalar & Normalizer to improve accuracy – project-2018-part-4.py
+_Line graph of inertia vs 6 clusters_
+![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/inertia.png "Inertia")
+
+_Line graph of inertia vs 20 clusters_
+![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/inertia-20.png "Inertia 20")
+
+## Tranformation of data features using Scalar & Normalizer to improve accuracy, and use of a crosstabulation table to test accuracy – _project-2018-part-4.py_
 
 
 
