@@ -93,7 +93,13 @@ _3 clusters with Scaler_
 |1  | 0         | 9         | 34         | 
 |2  | 0          | 37        | 16         | 
 
-__
+_3 clusters with Normalizer_
+
+| labels        | Iris-setosa           | Iris-versicolor  | Iris-virginica    | 
+| ------------- |:-------------:| -----:| ------------- |
+|0  | 0          | 9       | 49        | 
+|1  | 50         | 0         | 0         | 
+|2  | 0          | 41        | 1         | 
 
 ## Summary of investigations and further research 
 
