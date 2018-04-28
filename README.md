@@ -1,13 +1,17 @@
 # Project-2018
-Joan Healy
+by Joan Healy
 
-Summary of Fisher's Iris Data Set 
+## About This Project
+
+This is a project for my Python programming module for the GMIT HDip in the science of data analytics. It investigates and attempts to classify the 3 varieties of Iris flower using unsupervised learning techniques. I used several Python libraries and machine learning tutorials to achieve this, which are outlined below. 
+
+## Summary of Fisher's Iris Data Set 
 
 Fisher's Iris flower data set is a data set comprised of the length and width of the sepals and petals of 50 samples each of Iris setosa, Iris verginica and Iris versicolor, measured in centimeters. 
 
 In 1936 Ronald Fisher, a British biologist and statistician used the data set to create a linear discriminant model to distinguish the Iris species from each other. His research is recorded in his paper The use of multiple measurements in taxonomic problems.
 
-Initial Investigations 
+## Initial Investigations 
 
 The pandas library was used to import the dataset into my Python script. 
 Numpy was used to calculate the mean, standard deviation, minimum and maximum values of the different columns (representing length and width of sepals and petals)
