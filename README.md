@@ -14,3 +14,7 @@ Build into functions/classes as appropriate.
 References:
 https://matplotlib.org/gallery/specialty_plots/system_monitor.html#sphx-glr-gallery-specialty-plots-system-monitor-py
 https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html
+
+
+![alt text][stdBarChart]
+[stdBarChart]:
