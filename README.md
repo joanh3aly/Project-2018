@@ -64,7 +64,7 @@ _Scatterplot of clustering centroids found after modelling the petal length and 
 ![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/centroid-clusters.png "Centroids")
 
 ## Finding the best number of clusters by visualising the inertia – _project-2018-part-3.py_
-Inertia is a measure of the sum of the squares within each cluster. The lower the inertia of each cluster, the more accurate each cluster will be. Using the .inertia_ method on a range of clustering values (6 and 20 in this case) then visualise as a line graph, we can choose how many clusters we should use for our model. In the case of the Iris data set, it is 3, as can be seen from the graph below.
+Inertia is a measure of the sum of the squares within each cluster. The lower the inertia of each cluster, the more accurate each cluster will be. The .inertia_ method was used on a range of clustering values (6 and 20 in this case), and then visualised as a line graph. This information can be used to determine how many clusters to use in the model. In the case of the Iris data set, it is 3, as can be seen from the graph below.
 
 _Line graph of inertia vs 6 clusters_
 ![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/inertia.png "Inertia")
@@ -73,8 +73,21 @@ _Line graph of inertia vs 20 clusters_
 ![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/inertia-20.png "Inertia 20")
 
 ## Tranformation of data features using Scalar & Normalizer to improve accuracy, and use of a crosstabulation table to test accuracy – _project-2018-part-4.py_
+The data in each feature was transformed using the scalar and normalizer functions from sklearn.preprocessing. Scalar standardises the variance of the data in each feature, Normalizer rescales each row in the dataset so that the norm equals 1. 
+A cross-tabulation table is created for each model using Normalizer, Scaler and no data transformations. Each model's accuracy can then be compared.
 
+| variety        | Iris-setosa           | Iris-versicolor  | Iris-virginica    | 
+| ------------- |:-------------:| -----:| ------------- |
+|0  | 0          | 4        | 37         | 
+|1  | 50         | 1         | 0         | 
+|2  | 0          | 45        | 13         | 
 
+3 clusters - no transformation of the features
+variety  Iris-setosa  Iris-versicolor  Iris-virginica
+labels                                               
+0                  0                4              37
+1                 50                1               0
+2                  0               45              13
 
 ## Summary of investigations and further research 
 
