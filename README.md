@@ -26,6 +26,13 @@ _Sample of the data using .head()_
 |3  | 4.6          | 3.1         | 1.5          | 0.2         | Iris-setosa |  
 |4  | 5.0          | 3.6         | 1.4          | 0.2         | Iris-setosa |  
 
+| index        | sepal_length           | sepal_width  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+
 _Sepal Length_  
 mean 5.843333333333335,   
 max 7.9,   
@@ -59,11 +66,6 @@ _Standard deviations of the 4 features in the data set:_
 ## Crosstabulation table to test accuracy – project-2018-part-3.py
 
 ## Tranformation of data features using Scalar & Normalizer to improve accuracy – project-2018-part-4.py
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
 
 
 
