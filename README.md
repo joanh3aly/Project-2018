@@ -145,11 +145,11 @@ _Further Research_
 
 
 ## References:
-[UC Irvine Machine Learning Repository. Iris data set.](http://archive.ics.uci.edu/ml/datasets/Iris)
-[Datacamp Unsupervised learning tutorial](https://campus.datacamp.com/courses/unsupervised-learning-in-python/clustering-for-dataset-exploration?ex=1)  
-[Iris Flower Dataset, Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set)  
-[Udacity Machine Learning](https://eu.udacity.com/course/intro-to-machine-learning--ud120)  
-[Sklearn](http://scikit-learn.org/)  
+1. [UC Irvine Machine Learning Repository. Iris data set.](http://archive.ics.uci.edu/ml/datasets/Iris)
+1. [Datacamp Unsupervised learning tutorial](https://campus.datacamp.com/courses/unsupervised-learning-in-python/clustering-for-dataset-exploration?ex=1)  
+1. [Iris Flower Dataset, Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set)  
+1. [Udacity Machine Learning](https://eu.udacity.com/course/intro-to-machine-learning--ud120)  
+1. [Sklearn](http://scikit-learn.org/)  
 [Pandas dataframe documentation](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html)  
 [Numpy statistics functions documentation](https://docs.scipy.org/doc/numpy-1.13.0/reference/routines.statistics.html)  
 [Mathplotlib bar chart](https://matplotlib.org/gallery/specialty_plots/system_monitor.html#sphx-glr-gallery-specialty-plots-system-monitor-py)  
