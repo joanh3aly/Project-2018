@@ -3,7 +3,7 @@ by Joan Healy
 
 ## About This Project
 
-This is a project for my Python programming module for the GMIT HDip in the science of data analytics. It investigates and attempts to classify the 3 varieties of Iris flower using machine learning algorithms. I used several Python libraries and machine learning tutorials to achieve this, such as the [Datacamp Unsupervised learning tutorial](https://campus.datacamp.com/courses/unsupervised-learning-in-python/clustering-for-dataset-exploration?ex=1), which are outlined below. The aim of this project was to learn some basic unsupervised learning techniques.
+This is a project for my Python programming module for the GMIT HDip in the science of data analytics. It investigates and attempts to classify the 3 varieties of Iris flower in Fisher's Iris Dataset based upon clustering petal length and width using machine learning algorithms. I used several Python libraries and machine learning tutorials to achieve this, such as the [Datacamp Unsupervised learning tutorial](https://campus.datacamp.com/courses/unsupervised-learning-in-python/clustering-for-dataset-exploration?ex=1), which are outlined below. The aim of this project was to learn some basic unsupervised learning techniques.
 
 ## Summary of Fisher's Iris Data Set 
 
@@ -72,8 +72,9 @@ _Sepal width vs sepal length_
 
 
 ## KMeans clustering and visualisation of centroids – _project-2018-part-2.py_
-The KMeans algorithm from Sklearn was used to model the dataset after the petal length and sepal length columns were put into a new dataframe. Labels for each were found by using .fit and .predict on the model.
-From this visualisation, we can see 3 clusters of data points.
+The KMeans algorithm from Sklearn was used to model the dataset after the petal length and sepal length columns were put into a new dataframe. Labels for each were found by using .fit and .predict on the model. From this visualisation, we can see 3 clusters of data points. Based upon our initial investigations, we can see the smaller leaved Iris variety cluster in the lower left corner, this visualisation is similar to the petal length vs petal width scatterplot above.
+
+The Kmeans algorithm was chosen as it is a classic model for pattern recognition. Unsupervised learning algorithms learn by themselves, we don't need to train them (Yang, 2013 p12).
 
 _Scatterplot of clustering centroids found after modelling the petal length and sepal length using KMeans_
 ![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/centroid-clusters.png "Centroids")
@@ -144,6 +145,7 @@ _Further Research_
 
 
 ## References:
+[UC Irvine Machine Learning Repository. Iris data set.](http://archive.ics.uci.edu/ml/datasets/Iris)
 [Datacamp Unsupervised learning tutorial](https://campus.datacamp.com/courses/unsupervised-learning-in-python/clustering-for-dataset-exploration?ex=1)  
 [Iris Flower Dataset, Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set)  
 [Udacity Machine Learning](https://eu.udacity.com/course/intro-to-machine-learning--ud120)  
@@ -152,6 +154,8 @@ _Further Research_
 [Numpy statistics functions documentation](https://docs.scipy.org/doc/numpy-1.13.0/reference/routines.statistics.html)  
 [Mathplotlib bar chart](https://matplotlib.org/gallery/specialty_plots/system_monitor.html#sphx-glr-gallery-specialty-plots-system-monitor-py)  
 [Mathplotlib scatterplot](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html)  
+[Yang, Yu, "", p12](https://www.theseus.fi/bitstream/handle/10024/64785/yang_yu.pdf?sequence=1&isAllowed=y)
+[Minitab - Interpret all statistics and graphs for Cluster K-Means](https://support.minitab.com/en-us/minitab/18/help-and-how-to/modeling-statistics/multivariate/how-to/cluster-k-means/interpret-the-results/all-statistics-and-graphs/)
 
 
 
