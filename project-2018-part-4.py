@@ -1,9 +1,8 @@
 '''
-Project 2018 - part 4
-Joan Healy
+Joan Healy - Project 2018 - part 4
 22/4/18
 
-Experiment with cross-tabulation, to count the amount of varieties in each cluster. Reveals accuracy of clustering and scaling.
+Objective: Experiment with cross-tabulation, to count the amount of varieties in each cluster. Reveals accuracy of clustering and scaling.
 Compare the results of the model using Normalizer, Scaler and no data transformations.
 '''
 import matplotlib.pyplot as plt
@@ -15,9 +14,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import Normalizer
 
 df = pd.read_csv('/Users/joanhealy1/documents/exercise-5-iris-data/data/iris.data.csv')
-#print(df.head())
-print(df)
 
+# Choose columns and create new dataframe
 sl = df.iloc[:,0]
 pl = df.iloc[:,2]
 df3 = pd.DataFrame({'sl': sl, 'pl': pl})
