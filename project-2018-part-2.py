@@ -35,7 +35,6 @@ labels = model.predict(df3)
 print(labels)
 
 # Assign the columns of new_points: xs and ys
-
 xs = df3.iloc[:,0]
 ys = df3.iloc[:,1]
 
