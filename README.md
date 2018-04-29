@@ -72,15 +72,15 @@ _Sepal width vs sepal length_
 
 
 ## KMeans clustering and visualisation of centroids – _project-2018-part-2.py_
-The KMeans algorithm from Sklearn was used to model the dataset after the petal length and sepal length columns were put into a new dataframe. Labels for each were found by using .fit and .predict on the model. From this visualisation, we can see 3 clusters of data points. Based upon our initial investigations, we can see the smaller leaved Iris variety cluster in the lower left corner, this visualisation is similar to the petal length vs petal width scatterplot above.
+The KMeans algorithm from Sklearn was used to model the dataset after the petal length and sepal length columns were put into a new dataframe. The Kmeans algorithm was chosen as it is a classic model for pattern recognition. Unsupervised learning algorithms learn by themselves, we don't need to train them (Yang, 2013, p12). Labels for each were found by using .fit and .predict on the model.   
 
-The Kmeans algorithm was chosen as it is a classic model for pattern recognition. Unsupervised learning algorithms learn by themselves, we don't need to train them (Yang, 2013 p12).
+From this visualisation, we can see 3 clusters of data points. Based upon our initial investigations, we can see the smaller leaved Iris variety cluster in the lower left corner, and the 2 larger varieties merging between 3 and 7mm on the x-axis. This visualisation is similar to the petal length vs petal width scatterplot above. [TODO] Possible bug, in that I'm not sure why the range of values on the y-axis is different to the scatterplot (goes to 8mm) when the max petal width is 2.5mm. 
 
 _Scatterplot of clustering centroids found after modelling the petal length and sepal length using KMeans_
 ![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/centroid-clusters.png "Centroids")
 
 ## Finding the best number of clusters by visualising the inertia – _project-2018-part-3.py_
-Inertia is a measure of the sum of the squares within each cluster. The lower the inertia of each cluster, the more accurate each cluster will be. The .inertia_ method was used on a range of clustering values (6 and 20 in this case), and then visualised as a line graph. This information can be used to determine how many clusters to use in the model. In the case of the Iris data set, it is 3, as can be seen from the graph below.
+Inertia is a measure of the sum of the squares within each cluster [Sklearn documentation](http://scikit-learn.org/stable/modules/clustering.html). The lower the inertia of each cluster, the more accurate each cluster will be. The .inertia_ method was used on a range of clustering values (6 and 20 in this case), and then visualised as a line graph. This information can be used to determine how many clusters to use in the model. In the case of the Iris data set, it is 3, as can be seen from the graph below.
 
 _Line graph of inertia vs 6 clusters_
 ![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/inertia.png "Inertia")
@@ -154,8 +154,12 @@ _Further Research_
 [Numpy statistics functions documentation](https://docs.scipy.org/doc/numpy-1.13.0/reference/routines.statistics.html)  
 [Mathplotlib bar chart](https://matplotlib.org/gallery/specialty_plots/system_monitor.html#sphx-glr-gallery-specialty-plots-system-monitor-py)  
 [Mathplotlib scatterplot](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html)  
-[Yang, Yu, "", p12](https://www.theseus.fi/bitstream/handle/10024/64785/yang_yu.pdf?sequence=1&isAllowed=y)
+[Yang, Yu, 2013, "A study of pattern recognition of Iris
+flower based on Machine Learning "](https://www.theseus.fi/bitstream/handle/10024/64785/yang_yu.pdf?sequence=1&isAllowed=y)
 [Minitab - Interpret all statistics and graphs for Cluster K-Means](https://support.minitab.com/en-us/minitab/18/help-and-how-to/modeling-statistics/multivariate/how-to/cluster-k-means/interpret-the-results/all-statistics-and-graphs/)
+[Sklearn documentation](http://scikit-learn.org/stable/modules/clustering.html)
+[Halakatti,Shashidhar T & Halakatti, Shambulinga T, 2017, IPASJ International Journal of Computer Science (IIJCS) Volume 5, Issue 8, "Identification Of Iris Flower Species Using
+Machine Learning"](http://ipasj.org/IIJCS/Volume5Issue8/IIJCS-2017-08-18-18.pdf)
 
 
 
