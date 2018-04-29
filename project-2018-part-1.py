@@ -14,41 +14,35 @@ df = pd.read_csv('/Users/joanhealy1/documents/exercise-5-iris-data/data/iris.dat
 print(df.head())
 
 # Find mean, standard deviation, minimum and maximum values of the different columns (representing length and width of sepals and petals)
+# Find mean, standard deviation, minimum and maximum values of the different columns (representing length and width of sepals and petals)
 sepal_length = df.sepal_length
-print(np.mean(sepal_length))
-print(max(sepal_length))
-print(min(sepal_length))
-print(np.std(sepal_length))
+print('sepal length mean {}, \n sepal length max {},\n sepal length min {},\n sepal length standard deviation {}'.format( np.mean(sepal_length), max(sepal_length), min(sepal_length), np.std(sepal_length) ))
 
 sepal_width = df.sepal_width
-print(np.mean(sepal_width))
-print(max(sepal_width))
-print(min(sepal_width))
-print(np.std(sepal_length))
+print('sepal width mean {},\n sepal width max {},\n sepal width min {},\n sepal width standard deviation {}'.format( np.mean(sepal_width), max(sepal_width), min(sepal_width), np.std(sepal_width) ))
 
 petal_length = df.petal_length
-print(np.mean(petal_length))
-print(max(petal_length))
-print(min(petal_length))
-print(np.std(petal_length))
+print('petal length mean {},\n petal length max {},\n petal length min {},\n petal length standard deviation {}'.format( np.mean(petal_length), max(petal_length), min(petal_length), np.std(petal_length) ))
 
 petal_width = df.petal_width
-print(np.mean(petal_width))
-print(max(petal_width))
-print(min(petal_width))
-print(np.std(petal_width))
+print('petal width mean {},\n petal width max {},\n petal width min {},\n petal width standard deviation {}'.format( np.mean(petal_width), max(petal_width), min(petal_width), np.std(petal_width) ))
 
 # Plot on graph
 plt.figure()
-# Use scatterplot to compare sepals and petals
-plt.plot(sepal_length, sepal_width )
-plt.scatter(sepal_length, sepal_width )
+
+# .plot creates a line graph (not great for visualising this type of data) 
+#plt.plot(sepal_length, sepal_width )
+
+# Scatterplot to compare sepals and petals (uncomment to run)
+#plt.scatter(sepal_length, sepal_width )
 
 # Visualise the different lengths and widths of sepals/petals on a bar chart
 x = np.arange(4)
 stds = [np.std(sepal_length), np.std(sepal_width), np.std(petal_length), np.std(petal_width)]
 plt.bar(x, stds)
 plt.xticks(rotation='vertical')
+
+# Show plot
 plt.show()
 
 
