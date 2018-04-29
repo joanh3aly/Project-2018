@@ -14,8 +14,11 @@ In 1936 Ronald Fisher, a British biologist and statistician used the data set to
 ## Initial Investigations – _project-2018-part-1.py_
 
 The pandas library was used to import the dataset into my Python script. 
-Numpy was used to calculate the mean, standard deviation, minimum and maximum values of the different columns (representing length and width of sepals and petals)
-Mathplotlib was used to create scatterplots and bar charts comparing the different features: compare sepals and petals.
+Numpy was used to calculate the mean, standard deviation, minimum and maximum values of the different columns (representing length and width of sepals and petals).  
+
+Mathplotlib was used to create scatterplots and bar charts comparing the different features: width and length of sepals and petals. Petal length vs petal width shows two clear clusters of data points with a small cluster on the bottom left and a larger cluster stretching from the middle of the graph to the top right corner. We can find less defined clusters for sepal width vs sepal length. Sepal length vs petal width and sepal width vs petal length have defined clusters but are possibly not as effective as to classify as these are different parts of the flower.
+
+The bar chart of the standard deviation of the different features shows a great difference in the variance of the data, with petal length being of high variance and sepal width being the lowest. 
 
 _Sample of the data using .head()_  
 
