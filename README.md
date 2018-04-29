@@ -150,15 +150,15 @@ _Further Research_
 1. [Iris Flower Dataset, Wikipedia](https://en.wikipedia.org/wiki/Iris_flower_data_set)  
 1. [Udacity Machine Learning](https://eu.udacity.com/course/intro-to-machine-learning--ud120)  
 1. [Sklearn](http://scikit-learn.org/)  
-[Pandas dataframe documentation](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html)  
-[Numpy statistics functions documentation](https://docs.scipy.org/doc/numpy-1.13.0/reference/routines.statistics.html)  
-[Mathplotlib bar chart](https://matplotlib.org/gallery/specialty_plots/system_monitor.html#sphx-glr-gallery-specialty-plots-system-monitor-py)  
-[Mathplotlib scatterplot](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html)  
-[Yang, Yu, 2013, "A study of pattern recognition of Iris
+1. [Pandas dataframe documentation](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.html)  
+1. [Numpy statistics functions documentation](https://docs.scipy.org/doc/numpy-1.13.0/reference/routines.statistics.html)  
+1. [Mathplotlib bar chart](https://matplotlib.org/gallery/specialty_plots/system_monitor.html#sphx-glr-gallery-specialty-plots-system-monitor-py)  
+1. [Mathplotlib scatterplot](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html)  
+1. [Yang, Yu, 2013, "A study of pattern recognition of Iris
 flower based on Machine Learning "](https://www.theseus.fi/bitstream/handle/10024/64785/yang_yu.pdf?sequence=1&isAllowed=y)
-[Minitab - Interpret all statistics and graphs for Cluster K-Means](https://support.minitab.com/en-us/minitab/18/help-and-how-to/modeling-statistics/multivariate/how-to/cluster-k-means/interpret-the-results/all-statistics-and-graphs/)  
-[Sklearn documentation](http://scikit-learn.org/stable/modules/clustering.html)  
-[Halakatti,Shashidhar T & Halakatti, Shambulinga T, 2017, IPASJ International Journal of Computer Science (IIJCS) Volume 5, Issue 8, "Identification Of Iris Flower Species Using
+1. [Minitab - Interpret all statistics and graphs for Cluster K-Means](https://support.minitab.com/en-us/minitab/18/help-and-how-to/modeling-statistics/multivariate/how-to/cluster-k-means/interpret-the-results/all-statistics-and-graphs/)  
+1. [Sklearn documentation](http://scikit-learn.org/stable/modules/clustering.html)  
+1. [Halakatti,Shashidhar T & Halakatti, Shambulinga T, 2017, IPASJ International Journal of Computer Science (IIJCS) Volume 5, Issue 8, "Identification Of Iris Flower Species Using
 Machine Learning"](http://ipasj.org/IIJCS/Volume5Issue8/IIJCS-2017-08-18-18.pdf)
 
 
