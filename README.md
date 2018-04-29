@@ -156,8 +156,8 @@ _Further Research_
 [Mathplotlib scatterplot](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.scatter.html)  
 [Yang, Yu, 2013, "A study of pattern recognition of Iris
 flower based on Machine Learning "](https://www.theseus.fi/bitstream/handle/10024/64785/yang_yu.pdf?sequence=1&isAllowed=y)
-[Minitab - Interpret all statistics and graphs for Cluster K-Means](https://support.minitab.com/en-us/minitab/18/help-and-how-to/modeling-statistics/multivariate/how-to/cluster-k-means/interpret-the-results/all-statistics-and-graphs/)
-[Sklearn documentation](http://scikit-learn.org/stable/modules/clustering.html)
+[Minitab - Interpret all statistics and graphs for Cluster K-Means](https://support.minitab.com/en-us/minitab/18/help-and-how-to/modeling-statistics/multivariate/how-to/cluster-k-means/interpret-the-results/all-statistics-and-graphs/)  
+[Sklearn documentation](http://scikit-learn.org/stable/modules/clustering.html)  
 [Halakatti,Shashidhar T & Halakatti, Shambulinga T, 2017, IPASJ International Journal of Computer Science (IIJCS) Volume 5, Issue 8, "Identification Of Iris Flower Species Using
 Machine Learning"](http://ipasj.org/IIJCS/Volume5Issue8/IIJCS-2017-08-18-18.pdf)
 
