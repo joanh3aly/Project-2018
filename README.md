@@ -80,7 +80,7 @@ _Scatterplot of clustering centroids found after modelling the petal length and 
 ![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/centroid-clusters.png "Centroids")
 
 ## Finding the best number of clusters by visualising the inertia – _project-2018-part-3.py_
-Inertia is a measure of the sum of the squares within each cluster [Sklearn documentation](http://scikit-learn.org/stable/modules/clustering.html). The lower the inertia of each cluster, the more accurate each cluster will be. The .inertia_ method was used on a range of clustering values (6 and 20 in this case), and then visualised as a line graph. This information can be used to determine how many clusters to use in the model. In the case of the Iris data set, it is 3, as can be seen from the graph below.
+Inertia is a measure of the sum of the squares within each cluster ([Sklearn documentation](http://scikit-learn.org/stable/modules/clustering.html)). The lower the inertia of each cluster, the more accurate each cluster will be. The .inertia_ method was used on a range of clustering values (6 and 20 in this case), and then visualised as a line graph. This information can be used to determine how many clusters to use in the model. In the case of the Iris data set, it is 3, as can be seen from the graph below.
 
 _Line graph of inertia vs 6 clusters_
 ![alt text](https://github.com/joanh3aly/Project-2018/blob/master/figures/inertia.png "Inertia")
