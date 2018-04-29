@@ -1,7 +1,8 @@
 '''
-Joan Healy - Project 2018 - Part 1 investigation
+Joan Healy - Project 2018 - Part 1 
 30/3/18
 
+Objective: investigate the Iris dataset, using statistics functions and visualise the datapoints using mathplotlib.
 '''
 # Import Python libraries 
 import matplotlib.pyplot as plt
